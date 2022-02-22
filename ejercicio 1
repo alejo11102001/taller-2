@@ -1,0 +1,30 @@
+using System;
+
+namespace ejercicio_1_segumiento_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("ingrese el numero a: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese el numero b: ");
+            int b = int.Parse(Console.ReadLine());
+            if (a>b)
+            {
+                Console.WriteLine("el numero a: ",a , " es mayor que el numero b: ", b );
+            }
+            else
+            {
+                if (a == b)
+                {
+                    Console.WriteLine("el numero a: ", a, " es igual que el numero b: ", b);
+                }
+                else
+                {
+                    Console.WriteLine("el numero a: ", a, " es menor que el numero b: ", b);
+                }
+            }
+        }
+    }
+}
