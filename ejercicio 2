@@ -1,0 +1,62 @@
+using System;
+
+namespace segumiento_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int v = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese el valor de v: ");
+            int w = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese el valor de w: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese el valor de x: ");
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese el valor de y: ");
+            int z = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese el valor de z: ");
+            bool a = (v>4), b = (w==3), c = (x>3), d = (y<1), e = (z==1);
+            if (a == true)
+            {
+                if (b == true)
+                {
+                    Console.WriteLine("'v es mayor a 4 y 'w es igual a 3'");
+                }
+                else
+                {
+                    if(c==true)
+                    {
+                        Console.WriteLine("'v es mayor a 4 , 'w no es igual a 3' y 'x es mayor a 3'");
+                    }
+                    else
+                    {
+                        Console.WriteLine("'v es mayor a 4 , 'w no es igual a 3' y 'x no es mayor a 3'");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("'v no es mayor que 4'");
+                if(d==true)
+                {
+                    if(e==true)
+                    {
+                        Console.WriteLine("'v es mayor que 4', 'y es menor que 1' y 'z es igual a 1'");
+                    }
+                    else
+                    {
+                        Console.WriteLine("'v no es mayor que 4', 'y es menor que 1' y 'z no es igual a 1'");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("'v no es mayor que 4' y 'y no es menor que 1'");
+                }
+            }
+
+
+        }
+    
+    }
+}
