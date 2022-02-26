@@ -1,0 +1,22 @@
+using System;
+
+namespace taller_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num = 1, suma = 0, n;
+            Console.WriteLine("ingrese el valor numerico: ");
+            n = int.Parse(Console.ReadLine());
+
+            while (num <= n)
+            {
+                suma = suma + num;
+                num = num + 1;
+            }
+            Console.WriteLine("la suma es: " + suma);
+            Console.ReadKey();
+        }
+    }
+}
