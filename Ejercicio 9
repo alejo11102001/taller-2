@@ -1,0 +1,70 @@
+using System;
+
+namespace taller_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double PESOA = 0, PESOB = 0, PESOC = 0, PESOD = 0;
+            if ((PESOA == PESOB) && (PESOA == PESOC))
+            {
+                if (PESOD > PESOA)
+                {
+                    Console.WriteLine("La esfera D es la diferente y");
+                }
+                else
+                {
+                    Console.WriteLine("La esfera D es la diferente y");
+                }
+
+            }
+            else
+            {
+                if ((PESOA == PESOB) && (PESOA == PESOD))
+                {
+                    Console.WriteLine("La esfera C es la diferente");
+                    if (PESOC > PESOA)
+                    {
+                        Console.WriteLine("y es de mayor peso");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("y es de menor peso");
+                    }
+                }
+                else
+                {
+                    if ((PESOA == PESOC) && (PESOA == PESOD))
+                    {
+                        Console.WriteLine("La esfera B es la diferente");
+                        if (PESOB > PESOD)
+                        {
+                            Console.WriteLine("y es de mayor peso");
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("y es de mayor peso");
+                        }
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("La esfera A es la Diferente");
+                        if (PESOA > PESOB)
+                        {
+                            Console.WriteLine("y es de mayor peso");
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("y es de menor peso");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
